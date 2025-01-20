@@ -2,7 +2,7 @@
 
 [![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
 
-Master HTML parsing in Go using [Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), and third-party tools like Goquery, Colly, and [Bright Data's Web Scrapers](https://brightdata.com/products/web-scraper) for efficient web scraping.
+Master HTML parsing in Go using [Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), and third-party tools like Goquery, Colly, and [Bright Data's Web Scrapers](https://brightdata.com/products/web-scraper) for efficient [web scraping](https://github.com/luminati-io/Awesome-Web-Scraping).
 
 ## Prerequisites
 
