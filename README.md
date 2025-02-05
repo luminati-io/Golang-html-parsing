@@ -6,7 +6,7 @@ Master HTML parsing in Go using [Node Parser](https://www.npmjs.com/package/node
 
 ## Prerequisites
 
-Basic understanding of Go and Web Scraping is helpful. Ensure Go is installed on your machine. Create a new project folder and initialize it:
+Before you begin, it's helpful to have a basic understanding of Go (Golang) and web scraping concepts. Make sure Go is installed on your machine. Then, create a new project folder and initialize it with the following commands:
 
 ```bash
 mkdir goparser
@@ -40,7 +40,7 @@ go get golang.org/x/net/html
 
 ## Extracting Data With Node Parser
 
-Use Node Parser to traverse the DOM. Here's an example to extract quotes and authors:
+The Node Parser allows you to traverse the DOM (Document Object Model) of an HTML page. This is useful for extracting specific elements, such as quotes and authors. Here's an example of how to use the Node Parser to achieve this:
 
 ```go
 package main
@@ -82,7 +82,7 @@ func main() {
 
 ## Extracting Data With Tokenizer
 
-Tokenizer processes pages differently, focusing on tokens:
+The Tokenizer processes HTML pages as a stream of tokens, which represent individual components of the HTML (e.g., tags, attributes, and text). This approach is more memory-efficient for large pages but requires more manual handling. Here's an example of how to use the Tokenizer to extract quotes and authors:
 
 ```go
 package main
